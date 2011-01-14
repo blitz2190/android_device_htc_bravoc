@@ -102,9 +102,7 @@ PRODUCT_COPY_FILES += \
     device/htc/bravoc/apns-conf.xml:system/etc/apns-conf.xml
 
 PRODUCT_COPY_FILES += \
-    device/htc/bravoc/bcm4329.ko:system/lib/modules/bcm4329.ko \
-    device/htc/bravoc/libcameraservice/Android.mk:frameworks/base/services/camera/libcameraservice/Android.mk \
-    device/htc/bravoc/libcameraservice/CameraService.cpp:frameworks/base/services/camera/libcameraservice/CameraService.cpp
+    device/htc/bravoc/bcm4329.ko:system/lib/modules/bcm4329.ko
 
 ifeq ($(TARGET_PREBUILT_KERNEL),)
 LOCAL_KERNEL := device/htc/bravoc/kernel
